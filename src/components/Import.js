@@ -72,7 +72,7 @@ const Import = (props) => {
         // }}
       >
           {options.map((option) => (
-          <MenuItem key={option} selected={option === 'Delete'} onClick={handleClose} index={props.index}>
+          <MenuItem key={option} selected={option === 'Delete'} onClick={handleClose} index={deleteIndex}>
             {option}
           </MenuItem>
         ))}
